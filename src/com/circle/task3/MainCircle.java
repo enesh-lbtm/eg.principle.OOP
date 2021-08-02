@@ -1,4 +1,4 @@
-package com.circle;
+package com.circle.task3;
 
 import java.util.Scanner;
 
@@ -11,7 +11,8 @@ public class MainCircle {
         float s = 2 * p * radius;
         System.out.println("Длина окружности: "+s);
         float squareOfOkruznost = s / 2;
-        System.out.println("Площадь круга ограниченная ограниченная окружностью равна: "+squareOfOkruznost);
+        System.out.println("Площадь круга ограниченная ограниченная окружностью равна: "+squareOfOkruznost
+        );
 
     }
 }
